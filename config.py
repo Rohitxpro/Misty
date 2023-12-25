@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH","af48d2b63959038dad42e13cdf005d40")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN" ,"6177975474:AAE8wGT5vf8QBSwpaVX7gBn6EvWG7leSOfE")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","@official_adarsh_op")
+OWNER_USERNAME = getenv("OWNER_USERNAME","official_adarsh_op")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , "heartbeet_music_bot")
 # Don't Add style font 
@@ -69,7 +69,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Ge@STRINGSEASO_NBOT2 session from @STRINGSEASO_NBOT
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQGrCa0ASSs9CaXlSop78o-tr82JEGENn95wsSQDzbyUsruW8V8Sq-UDXCOUFT7fgP2m7FR5Ae2Y_XEAA2ksg6PH9-LOK6YM4FF9wpkxILphPpxa0tfL8wdYwLrwg_2e2BzT-DNutacAS5sf6VORqVpmnrExmfSg1tH4Zq3N4cModwjOn1Bb_GEuRKVj7mJlFCPzupjnGv9AO8O7DJ_9a9rV2hzAZdPBepFqvp0g0rQQhcFQVXe7CSi3wS_W1gOjE5mtraURhMlyL-sGUDSFUvg2JAPPYfp5AaDGKYPDTKtjw9jlJMJOJgPiSp2CmiadopgYJjMah8TtOsQxhD3HVAOysCvAAAAAFknBkHAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
