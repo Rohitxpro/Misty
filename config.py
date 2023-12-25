@@ -7,29 +7,29 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID","27986349"))
+API_HASH = getenv("API_HASH","af48d2b63959038dad42e13cdf005d40")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN" ,"6177975474:AAE8wGT5vf8QBSwpaVX7gBn6EvWG7leSOfE")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","iam_daxx")
+OWNER_USERNAME = getenv("OWNER_USERNAME","@official_adarsh_op")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "YumikooBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "heartbeet_music_bot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Yumikoo")
+BOT_NAME = getenv("BOT_NAME" , "⏤͟͞• ʜᴇᴀʀᴛʙᴇᴀᴛ ꭙ ᴍᴜꜱɪᴄ˼🫧🖤🥀💔")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
-EVALOP = list(map(int, getenv("EVALOP", "2105971379 5360305806 6691393517").split()))
+ASSUSERNAME = getenv("ASSUSERNAME" , "H_B_Assistent")
+EVALOP = list(map(int, getenv("EVALOP", "").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://devilop:devilop123@devilserver.bhep18a.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1001802990747))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001919006105))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6691393517))
+OWNER_ID = int(getenv("OWNER_ID", 5977523092))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,18 +39,18 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DAXXTEAM/MISTY",
+    "https://github.com/Rohitxpro/MISTY",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ALLTYPECC")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/HEROKUFREECC")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_devil30")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/new_devil_world")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
