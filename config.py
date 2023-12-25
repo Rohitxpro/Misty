@@ -7,21 +7,21 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID","27986349"))
-API_HASH = getenv("API_HASH","af48d2b63959038dad42e13cdf005d40")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN" ,"6177975474:AAE8wGT5vf8QBSwpaVX7gBn6EvWG7leSOfE")
+BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","official_adarsh_op")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , "heartbeet_music_bot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "⏤͟͞• ʜᴇᴀʀᴛʙᴇᴀᴛ ꭙ ᴍᴜꜱɪᴄ˼🫧🖤🥀💔")
+BOT_NAME = getenv("BOT_NAME" , "")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "H_B_Assistent")
 EVALOP = list(map(int, getenv("EVALOP", "").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://devilop:devilop123@devilserver.bhep18a.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
