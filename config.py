@@ -54,8 +54,8 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "19609edb1b9f4ed7be0c8c1342039362")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "409e31d3ddd64af08cfcc3b0f064fcbe")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -69,7 +69,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Ge@STRINGSEASO_NBOT2 session from @STRINGSEASO_NBOT
-STRING1 = getenv("STRING_SESSION", "BQGrCa0ASSs9CaXlSop78o-tr82JEGENn95wsSQDzbyUsruW8V8Sq-UDXCOUFT7fgP2m7FR5Ae2Y_XEAA2ksg6PH9-LOK6YM4FF9wpkxILphPpxa0tfL8wdYwLrwg_2e2BzT-DNutacAS5sf6VORqVpmnrExmfSg1tH4Zq3N4cModwjOn1Bb_GEuRKVj7mJlFCPzupjnGv9AO8O7DJ_9a9rV2hzAZdPBepFqvp0g0rQQhcFQVXe7CSi3wS_W1gOjE5mtraURhMlyL-sGUDSFUvg2JAPPYfp5AaDGKYPDTKtjw9jlJMJOJgPiSp2CmiadopgYJjMah8TtOsQxhD3HVAOysCvAAAAAFknBkHAA")
+STRING1 = getenv("STRING_SESSION", "None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -88,10 +88,10 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://telegra.ph/file/cfbdee8103102bcb2e5da.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/00360393a15daf7fc4e9d.jpg"
+    "PING_IMG_URL", "https://graph.org/file/60859c1242ce70ed42a39.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/b9dcc17245d88da58bcbf.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/f23bee3d686fb32ae1402.jpg"
+STATS_IMG_URL = "https://graph.org/file/1dc4637f10fba46aa89e8.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/48f39202823b358203234.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e575ae40d6635250974e1.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
