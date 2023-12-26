@@ -12,7 +12,7 @@ up_r = f"[𝗥𝗘𝗣𝗢]({config.UPSTREAM_REPO})"
 
  ##############
  
-    text = f"""𝐇𝐞𝐚𝐫𝐭𝐛𝐞𝐞𝐭 𝐁𝐨𝐭 𝐑𝐞𝐩𝐨⌫
+    text = f"""𝐇𝐞𝐚𝐫𝐭𝐛𝐞𝐞𝐭 𝐁𝐨𝐭 𝐑𝐞𝐩𝐨⌫"""
 
     
 <u>𝗖𝗥𝗘𝗗𝗜𝗧 ❥︎MR White Devil:</u>
