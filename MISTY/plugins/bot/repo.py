@@ -1,10 +1,21 @@
-from pyrogram import filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from MISTY import app
-from config import BOT_USERNAME
+import asyncio
 
-start_txt = """**
-up_r = f"[𝗥𝗘𝗣𝗢]({config.UPSTREAM_REPO})"
+from pyrogram import filters
+
+import config
+from MISTY import app
+from MISTY.utils.formatters import convert_bytes
+
+
+
+
+
+@app.on_message(filters.command("repo"))
+async def varsFunc(client, message):
+    mystic = await message.reply_text(
+        "Please wait.."
+    )
+    up_r = f"[𝗥𝗘𝗣𝗢]({config.UPSTREAM_REPO})"
     up_b = f"[𝗠𝗔𝗦𝗧𝗘𝗥]({config.UPSTREAM_BRANCH})"
     sp_c = f"[𓆩𓆩𝐂𝐡𝐚𝐧𝐧𝐞𝐥 😎]({config.SUPPORT_CHANNEL})"
     sp_g = f"[𓊈𒆜彡[𝐃ҽѵíl 𝐃ҽcմs]彡𒆜𓊉]({config.SUPPORT_CHAT})"
@@ -12,7 +23,7 @@ up_r = f"[𝗥𝗘𝗣𝗢]({config.UPSTREAM_REPO})"
 
  ##############
  
-    text = f"""𝐇𝐞𝐚𝐫𝐭𝐛𝐞𝐞𝐭 𝐁𝐨𝐭 𝐑𝐞𝐩𝐨⌫"""
+    text = f"""𝐇𝐞𝐚𝐫𝐭𝐛𝐞𝐞𝐭 𝐁𝐨𝐭 𝐑𝐞𝐩𝐨⌫
 
     
 <u>𝗖𝗥𝗘𝗗𝗜𝗧 ❥︎MR White Devil:</u>
@@ -26,12 +37,7 @@ up_r = f"[𝗥𝗘𝗣𝗢]({config.UPSTREAM_REPO})"
 𝗚𝗥𝗢𝗨𝗣 ❥︎ {sp_g}
 
 𝗢𝗪𝗡𝗘𝗥 ❥︎ {ow_i}
-        ]]
-    
-    reply_markup = InlineKeyboardMarkup(buttons)
-    
-    await msg.reply_photo(
-        photo="https://telegra.ph/file/faa1f3ad7116e33d9f402.jpg",
-        caption=start_txt,
-        reply_markup=reply_markup
-    )
+
+    """
+    await asyncio.sleep(1)
+    await mystic.edit_text(text)
